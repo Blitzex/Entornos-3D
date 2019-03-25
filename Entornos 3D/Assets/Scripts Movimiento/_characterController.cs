@@ -4,7 +4,7 @@ public class _characterController : MonoBehaviour
 {
     public Camera cam;
     private InputData input;
-    private AnimMovement characterMovement;
+    public AnimMovement characterMovement;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,17 @@ public class _characterController : MonoBehaviour
   
     void CharacterMovement()
     {
-        characterMovement.moveCharacter(input.Horizontal, input.Vertical, cam, input.jump, input.dash);
+        float h = input.Horizontal;
+        float v = input.Vertical;
+        Camera c = cam;
+
+        bool j = input.jump;
+
+        bool d = input.dash;
+
+
+
+        characterMovement.moveCharacter(h, v, c, j, d);
 
     }
 
