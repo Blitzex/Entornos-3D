@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class _characterController : MonoBehaviour
 {
     public Camera cam;
+    public UnityEvent onInteractionInput;
     private InputData input;
     public AnimMovement characterMovement;
+
+    public bool onInteractionZone { get; set; }
 
     // Start is called before the first frame update
     void Start()
@@ -17,9 +21,15 @@ public class _characterController : MonoBehaviour
     {
         // Get input from player
         input.getInput();
-
-        //Apply input to character
-        CharacterMovement();
+        // Use jump as action button only if
+        //the character is inside an InteractionZone
+        if (onInteractionZone && input.jump)
+        {
+            onInteractionInput.Invoke();
+        }
+        else
+            //Apply input to character
+            CharacterMovement();
     }
   
     void CharacterMovement()
