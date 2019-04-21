@@ -22,14 +22,10 @@ MonoBehaviour:
   verticalScroll: 0
   m_Keys:
   - {fileID: 114045957535464190, guid: 34f50a21efada0742b8b2a3b8c957762, type: 2}
-  - {fileID: 114022690988069714, guid: 34f50a21efada0742b8b2a3b8c957762, type: 2}
   - {fileID: 114329697008041248, guid: 34f50a21efada0742b8b2a3b8c957762, type: 2}
   - {fileID: 114179786066813376, guid: 34f50a21efada0742b8b2a3b8c957762, type: 2}
   - {fileID: 114077189011890106, guid: 34f50a21efada0742b8b2a3b8c957762, type: 2}
   m_Vals:
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
