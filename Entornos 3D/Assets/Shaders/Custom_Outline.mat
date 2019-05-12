@@ -19,10 +19,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6b3eb6215d995ca469c57f90951c7247, type: 3}
+        m_Texture: {fileID: 2800000, guid: 51756af1df1884c4092078fa4c2b216d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Outline: 0.0328
+    - _Outline: 0.0016
     m_Colors:
     - _OutlineColor: {r: 0.9433962, g: 0.89982057, b: 0, a: 1}
