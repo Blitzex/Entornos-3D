@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Cinematica.unity
+- path: Assets/Scenes/Shaders.unity
   isLoaded: 1
   isActive: 1
